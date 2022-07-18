@@ -1,0 +1,69 @@
+Welcome 
+
+Now this should be easy! 
+
+
+This are the manual commands to install the script without error on your terminal
+
+Already with the script stored in your download folder 
+You then open termux and type this commands carefully don't rush as I will explain each! 
+
+
+Note: (copy the commands without the $ sign) 
+
+
+[IN THE TERMUX HOME DIR] 
+
+$ termux-setup-storage 
+
+#After this command grant storage permission to termux 
+If already granted just skip. 
+
+$ pkg update 
+
+#wait... 
+
+$ pkg upgrade
+
+# wait... 
+
+pkg install pip
+
+# wait.. 
+
+$ cd storage/downloads
+
+#This command takes you to your internal download folder
+
+$ cd FNWH 
+
+# Now this command takes you to the script folder 📂 
+NOTE: To get this folder you need to unzip the downloaded file manually 
+
+$ pip install requests 
+
+#wait till done 
+
+$ pip install tqdm 
+
+#wait Again 
+
+$ pip install termcolor 
+
+# just wait... 
+
+Done! 
+
+
+[How To Use] 
+
+To use fnwh.py you need a txt file with your urls to scan. 
+
+Just copy/move your host list to (script folder) FNWH Folder in your downloads. 
+    And then open termux and type this command
+    
+$ python3 fnwh.py yourlist.txt
+
+Your results are saved in the same folder with the script as "results" 
+
+he he :D
