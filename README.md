@@ -10,6 +10,8 @@ $ pkg install python3
 
 $ pkg install pip 
 
+$ termux-setup-storage
+
 $ cd /storage/downloads 
 
 $ git clone https://github.com/Davrez/FNWH.git
