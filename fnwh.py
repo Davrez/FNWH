@@ -112,6 +112,8 @@ for line in lines:
     except requests.RequestException as e:
         print("\n[!] : General Error")
         continue
+    except KeyError:
+        continue 
     
     except KeyboardInterrupt:
       out.close()
